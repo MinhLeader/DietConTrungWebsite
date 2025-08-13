@@ -21,6 +21,11 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapControllerRoute(
+    name: "customRoute",
+    pattern: "dich-vu-diet-moi-tan-goc",
+    defaults: new { controller = "Home", action = "DietMoi" });
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 

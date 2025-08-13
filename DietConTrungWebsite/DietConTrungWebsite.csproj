@@ -9,7 +9,6 @@
   <ItemGroup>
     <Content Remove="Views\Home\404.cshtml" />
     <Content Remove="Views\Home\booking.cshtml" />
-    <Content Remove="Views\Home\contact.cshtml" />
     <Content Remove="Views\Home\service.cshtml" />
     <Content Remove="Views\Home\team.cshtml" />
     <Content Remove="Views\Home\testimonial.cshtml" />
@@ -18,7 +17,6 @@
   <ItemGroup>
     <None Include="Views\Home\404.cshtml" />
     <None Include="Views\Home\Booking.cshtml" />
-    <None Include="Views\Home\Contact.cshtml" />
     <None Include="Views\Home\Service.cshtml" />
     <None Include="Views\Home\Team.cshtml" />
     <None Include="Views\Home\Testimonial.cshtml" />

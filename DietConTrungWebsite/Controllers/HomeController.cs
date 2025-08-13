@@ -21,13 +21,24 @@ namespace DietConTrungWebsite.Controllers
         {
             return View();
         }
-        
-        public IActionResult Service() => View();
+
+        public IActionResult Service()
+        {
+            return View();
+        }
         public IActionResult Booking() => View();
         public IActionResult Team() => View();
         public IActionResult Testimonial() => View();
-        public IActionResult Contact() => View();
-        public IActionResult NotFound() => View("404"); 
+        public IActionResult Lienhe() => View();
+        public IActionResult NotFound() => View("404");
+        public IActionResult QuyTrinh() => View();
+        public IActionResult DietMoi() => View();
+        public IActionResult DietGian() => View();
+        public IActionResult DietMuoi() => View();
+        public IActionResult DietRuoi() => View();
+        public IActionResult KiemSoatChuot() => View();
+        public IActionResult KiemSoatTongHop() => View();
+
         public IActionResult Privacy()
         {
             return View();
